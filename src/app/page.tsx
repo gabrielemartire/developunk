@@ -36,19 +36,19 @@ export default function Home() {
       title: "Minimalist Desk Lamp",
       description: "A sleek, adjustable desk lamp with touch controls and multiple light temperatures.",
       price: "$89.99",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://picsum.photos/id/437/4000/3000",
     },
     {
       title: "Geometric Bookshelf",
       description: "Modern geometric bookshelf with an asymmetrical design that creates visual interest.",
       price: "$249.99",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://picsum.photos/id/435/200/300",
     },
     {
       title: "Living Space Concept",
       description: "A holistic approach to living spaces that combines functionality, aesthetics, and sustainability.",
       price: "Custom Quote",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "https://picsum.photos/id/451/300/500",
     },
   ]
 
@@ -125,11 +125,11 @@ export default function Home() {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: index * 0.1 + 0.2 }}
                     >
-                      <Card className="h-full overflow-hidden transition-all duration-300 hover:shadow-lg">
+                      <Card className="p-0 h-full overflow-hidden transition-all duration-300 hover:shadow-lg">
                         <CardHeader className="p-0">
-                          <div className="relative h-48 w-full overflow-hidden">
+                          <div className="relative h-60 w-full overflow-hidden">
                             <Image
-                              src={product.image || "/placeholder.svg"}
+                              src={product.image}
                               alt={product.title}
                               fill
                               className="object-cover transition-transform duration-300 hover:scale-105"
