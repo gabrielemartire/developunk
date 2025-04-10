@@ -168,7 +168,7 @@ export default function Home() {
 
                     <h3 className="mb-4 text-2xl font-bold">Past Projects</h3>
                     <p className="mb-6 text-muted-foreground">
-                      We've worked with clients ranging from small startups to established brands, helping them create
+                      Weve worked with clients ranging from small startups to established brands, helping them create
                       unique design identities and functional products. Our portfolio includes furniture design,
                       interior concepts, and product development.
                     </p>
