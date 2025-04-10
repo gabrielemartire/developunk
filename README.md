@@ -22,3 +22,14 @@ npx create-next-app@latest landing
 
     Initializing project with template: app-tw
 ```
+
+
+```
+⨯ ./tailwind.config.ts:78:13
+    Module not found: Can't resolve 'tailwindcss-animate'
+      76 |     },
+      77 |   },
+    > 78 |   plugins: [require("tailwindcss-animate")],
+```
+[/tailwindcss-animate](https://www.npmjs.com/package/tailwindcss-animate)
+npm install -D tailwindcss-animate
