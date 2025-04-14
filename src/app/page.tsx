@@ -33,22 +33,22 @@ export default function Home() {
 
   const products = [
     {
-      title: "Minimalist Desk Lamp",
-      description: "A sleek, adjustable desk lamp with touch controls and multiple light temperatures.",
-      price: "$89.99",
-      image: "https://picsum.photos/id/437/4000/3000",
+      title: "Habita Flow",
+      description: " A flexible, modular service for managing and enhancing living spaces, designed to adapt to your lifestyle.",
+      price: " Price upon request",
+      image: "https://picsum.photos/id/397/4000/3000",
     },
     {
-      title: "Geometric Bookshelf",
-      description: "Modern geometric bookshelf with an asymmetrical design that creates visual interest.",
-      price: "$249.99",
-      image: "https://picsum.photos/id/435/200/300",
+      title: "MirrorShot Camera",
+      description: "Compact and sophisticated camera with a minimalist design, perfect for capturing sharp details in any setting.",
+      price: "$349.99",
+      image: "https://picsum.photos/id/435/4000/3000",
     },
     {
-      title: "Living Space Concept",
-      description: "A holistic approach to living spaces that combines functionality, aesthetics, and sustainability.",
-      price: "Custom Quote",
-      image: "https://picsum.photos/id/451/300/500",
+      title: "HelpCloud",
+      description: " User-friendly web platform offering smart solutions and continuous support for all your technical and operational needs.",
+      price: "Starting at $19.99/month",
+      image: "https://picsum.photos/id/366/4000/3000",
     },
   ]
 
@@ -101,7 +101,7 @@ export default function Home() {
               <section className="container mx-auto flex min-h-[calc(100vh-12rem)] flex-col items-center justify-center px-4 py-12 text-center">
                 <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}>
                   <h1 className="mb-6 text-5xl font-bold tracking-tight md:text-6xl">
-                    Welcome to <span className="text-primary">Design Studio</span>
+                    Welcome to <span className="text-primary">Developunk Design Studio</span>
                   </h1>
                   <p className="mx-auto mb-8 max-w-2xl text-xl text-muted-foreground">
                     We create beautiful, functional designs that enhance your everyday life. Explore our products and
@@ -239,7 +239,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t bg-muted/30 py-6">
         <div className="container mx-auto px-4 text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Design Studio. All rights reserved. Created with ♥ by Creative Team.
+          © {new Date().getFullYear()} Developunk Design Studio. All rights reserved. Created with ♥ by Creative Team.
         </div>
       </footer>
     </div>
